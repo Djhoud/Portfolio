@@ -1,5 +1,5 @@
 // src/components/Header.tsx
-import '../styles/header.css'; // Certifique-se de que este caminho esteja correto
+import '../styles/Header.css';
 
 const Header = () => {
   return (
