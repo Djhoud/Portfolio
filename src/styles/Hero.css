@@ -1,0 +1,64 @@
+/* Remover margem padrão do body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define que o Hero ocupa toda a tela inicial */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3c8cfc; /* Cor de fundo */
+  color: white;
+  text-align: center;
+  margin: 0; /* Remover margens ao redor do hero */
+}
+
+/* Estilos para o conteúdo centralizado do Hero */
+.hero-content {
+  max-width: 80%;
+}
+
+/* Estilo para o título */
+.hero-title {
+  font-size: 8vw; /* Tamanho grande para o título */
+  font-weight: 900; /* Espessura maior para deixar as letras mais grossas */
+    margin: 0;
+  line-height: 0.9; /* Reduzir o espaçamento entre linhas */
+}
+
+/* Estilos para "REACT" e "DEVELOPER" */
+.react {
+    display: flex; /* Coloca o "REACT" em uma linha separada */
+    font-weight: 900;
+}
+
+.developer {
+    display: flex; /* Coloca o "DEVELOPER" abaixo */
+    font-weight: 900;
+}
+
+/* Estilo para o subtítulo */
+.hero-subtitle {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* Estilo para o botão */
+.hero-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1.2vw;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #555;
+}
