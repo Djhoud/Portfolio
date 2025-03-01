@@ -4,13 +4,12 @@ import '../styles/Contact.css';
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="contact">
-      <h2>Contato</h2>
-      <form>
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu email" required />
-        <textarea placeholder="Sua mensagem" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <div>
+        <h2 className="contact-title">Vamos trabalhar juntos! 👋</h2>  {/* Adicionando o emoji de mãos apertando */}
+        <a href="https://wa.me/5542999856451" target="_blank" rel="noopener noreferrer">
+          <button>Fale comigo no WhatsApp 🤝</button>  {/* Emoji nas palavras do botão */}
+        </a>
+      </div>
     </section>
   );
 };

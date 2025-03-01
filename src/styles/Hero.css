@@ -1,20 +1,44 @@
 /* Hero.css */
+
+/* Vinheta isolada */
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: radial-gradient(circle, rgba(60, 140, 252, 0.8), rgba(60, 140, 252, 0.8) 70%, rgba(0, 0, 0, 0.7) 100%); /* Vinheta com sombreamento */
+  background: radial-gradient(
+    ellipse farthest-corner at center, 
+    #398cbf32 0%,  
+    #143C8C 50%, 
+    rgba(0, 0, 0, 0.7) 100%
+  );
   color: white;
   text-align: center;
   margin: 0;
+  min-height: 100vh;
 }
 
-/* Estilos para o conteúdo centralizado do Hero */
+
 .hero-content {
   max-width: 80%;
   display: flex;
   flex-direction: column;
+}
+
+.hero-introduction {
+  display: flex;
+
+  align-items: flex-start;
+  line-height:0.85; /* Ajusta o espaçamento */
+  
+}
+
+.hero-intro {
+  font-size: 1.5vw; /* Tamanho de fonte adaptável */
+  font-weight: 400;
+ margin-left: 1.2%;
+  color: #ffffff8c; /* Cor com transparência */
+
 }
 
 .hero-title {
@@ -22,14 +46,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 0.97;
-  margin-top: -10%; /* Ajuste esse valor para mover mais para cima */
+  line-height: 0.78;
 }
 
 .react {
   font-size: 170px; 
   text-align: left;
-  margin-right: 34%; 
+  margin-right: 41%; 
 }
 
 .developer {
@@ -39,7 +62,9 @@
 
 /* Estilo para o subtítulo */
 .hero-subtitle {
-  font-size: 1.5vw;
-  font-weight: 400;
+  font-size: 0.8vw;
+  letter-spacing: 1px;
+  font-weight: 200;
   margin-top: 20px;
+  margin-left: 54%;
 }

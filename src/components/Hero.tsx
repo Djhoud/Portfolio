@@ -4,14 +4,17 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <div className="vignette">
-          <h1 className="hero-title">
-            <span className="react">REACT</span> 
-            <span className="developer">DEVELOPER</span>
-          </h1>
+        <div className="hero-introduction">
+          <p className="hero-intro">Oi👋 eu sou o Luiz</p>
         </div>
+        <h1 className="hero-title">
+          <span className="react">REACT</span>
+          <span className="developer">DEVELOPER</span>
+        </h1>
         <p className="hero-subtitle">
-          Tenho 20 anos e sou desenvolvedor frontend. Gosto de resolver problemas usando design e tecnologia.
+       TENHO 20 ANOS E SOU UM DESENVOLVEDOR FRONTEND INICIANTE.<br />
+         
+          GOSTO DE RESOLVER PROBLEMAS USANDO DESIGN E TECNOLOGIA.
         </p>
       </div>
     </section>
