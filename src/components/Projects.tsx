@@ -11,15 +11,15 @@ import '../styles/Projects.css';
 const projects = [
   {
     title: "Projeto 1",
-    description: "Descrição do projeto 1",
+    description: "Landing Page descrevendo funcionalidades de um futuro app",
     image: exemploGoPlanning,
     link: "https://goplanningdemo.netlify.app",
   },
   {
     title: "Projeto 2",
-    description: "Descrição do projeto 2",
+    description: "Protótipo em andamento",
     image: exemploTCC,
-    link: "https://github.com/seu-usuario/projeto1",
+    link: "https://www.figma.com/design/jqpcuTOIfTJADR1qAf3P0M/Protótipo-Go?node-id=132-1231&t=IuU33Ouhk2TWFeLF-0",
   },
 
 ];
